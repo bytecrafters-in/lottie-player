@@ -16,10 +16,10 @@ A simple and easy-to-use React component for integrating Lottie animations into 
 
 ## Installation
 
-To use the `@bytecrafters.in/lottie-player` package in your project, you can install it via npm:
+To use the `@bytec.in/lottie-player` package in your project, you can install it via npm:
 
 ```bash
-npm install @bytecrafters.in/lottie-player
+npm install @bytec.in/lottie-player
 ```
 ````
 
@@ -33,7 +33,7 @@ Here's a basic example of how to use the `LottiePlayer` in your React project:
 
 ```jsx
 import React from "react";
-import LottiePlayer from "@bytecrafters.in/lottie-player";
+import LottiePlayer from "@bytec.in/lottie-player";
 import animationData from "./path/to/your/animation.json"; // Adjust the path to your animation JSON file
 
 const App = () => (
@@ -57,7 +57,7 @@ export default App;
 
 ```jsx
 import React from "react";
-import LottiePlayer from "@bytecrafters.in/lottie-player";
+import LottiePlayer from "@bytec.in/lottie-player";
 import animationData from "./animations/sample-animation.json";
 
 const App = () => (
@@ -102,7 +102,7 @@ If you want to contribute or modify this package, follow these steps:
    Then in your project:
 
    ```bash
-   npm link @bytecrafters.in/lottie-player
+   npm link @bytec.in/lottie-player
    ```
 
 ## License
