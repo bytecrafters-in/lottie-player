@@ -1,0 +1,36 @@
+{
+	"name": "@bytecrafters.in/lottie-player",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"types": "dist/types/index.d.ts",
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"scripts": {
+		"build": "webpack --mode production",
+		"start": "webpack serve --mode development --open",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"peerDependencies": {
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.25.2",
+		"@babel/plugin-transform-runtime": "^7.25.4",
+		"@babel/preset-env": "^7.25.4",
+		"@babel/preset-react": "^7.24.7",
+		"@babel/preset-typescript": "^7.24.7",
+		"@types/react": "^18.3.5",
+		"@types/react-dom": "^18.3.0",
+		"babel-loader": "^8.3.0",
+		"typescript": "^4.9.5",
+		"webpack": "^5.94.0",
+		"webpack-cli": "^4.10.0",
+		"webpack-dev-server": "^3.11.3"
+	},
+	"dependencies": {
+		"lottie-web": "^5.12.2"
+	}
+}
+
