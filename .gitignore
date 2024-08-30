@@ -10,7 +10,7 @@
 
 # production
 /build
-/stript
+/scripts/*
 
 # misc
 .DS_Store
