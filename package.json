@@ -9,7 +9,8 @@
 	"scripts": {
 		"build": "webpack --mode production",
 		"start": "webpack serve --mode development --open",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"publish": "npm publish --access=public"
 	},
 	"peerDependencies": {
 		"react": "^18.3.1",
