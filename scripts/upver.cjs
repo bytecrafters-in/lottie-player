@@ -27,19 +27,6 @@ if (newVersionArg) {
 	newVersion = upver(currentVersion, incrementType);
 }
 
-// Find and increment the version number in manifest.json
-const manifestJson = JSON.parse(manifestJsonContent);
-if (manifestJson.version) {
-	manifestJson.version = newVersion;
-	fs.writeFileSync(manifestJsonPath, JSON.stringify(manifestJson, null, 2));
-
-	console.log("Version upgraded in manifest.json successfully!");
-	console.log(`Old Version: ${currentVersion}`);
-	console.log(`New Version: ${newVersion}`);
-} else {
-	console.error("Failed to find the version number in manifest.json");
-}
-
 // Update package.json
 packageJson.version = newVersion;
 fs.writeFileSync(packageJsonPath, JSON.stringify(packageJson, null, 2));
