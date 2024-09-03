@@ -1,8 +1,3 @@
-Here’s the updated `README.md` file with the correct GitHub repository URL:
-
-### `README.md`
-
-````markdown
 # LottiePlayer
 
 A simple and easy-to-use React component for integrating Lottie animations into your React projects. This wrapper abstracts away the complexity of using Lottie animations, allowing you to quickly and efficiently add animations to your web applications.
@@ -21,7 +16,7 @@ To use the `@bytec.in/lottie-player` package in your project, you can install it
 ```bash
 npm install @bytec.in/lottie-player
 ```
-````
+
 
 ## Usage
 
@@ -122,7 +117,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 
 If you encounter any issues or have questions, please open an issue on GitHub or contact me directly.
 
-```
 
-This `README.md` file now correctly references your GitHub repository and provides clear instructions for users to get started with your `LottiePlayer` package.
-```
