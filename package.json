@@ -1,6 +1,6 @@
 {
   "name": "@bytec.in/lottie-player",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "author": "",
@@ -11,7 +11,7 @@
     "start": "webpack serve --mode development --open",
     "test": "echo \"Error: no test specified\" && exit 1",
     "upver": "node scripts/upver.cjs",
-    "deploy": "npm run upver patch && npm publish --access=public && git add . && git commit -m 'deploy' && git push origin main --follow-tags"
+    "deploy": "npm run upver patch && npm run build && npm publish --access=public && git add . && git commit -m 'deploy' && git push origin main --follow-tags"
   },
   "peerDependencies": {
     "react": "^18.3.1",
